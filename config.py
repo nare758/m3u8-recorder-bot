@@ -7,9 +7,9 @@ from telethon.sessions import MemorySession
 load_dotenv()
 
 try:
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    API_ID = int(os.environ.get("30523194"))
+    API_HASH = os.environ.get("76d62e302ed767a9ea0b8586a9189ca5")
+    BOT_TOKEN = os.environ.get("8531617857:AAEutx4YBcpBzJN-hxmfEz1-bQezohbGlI0")
 except (TypeError, ValueError):
     print("ERROR: Missing API credentials in .env file")
     sys.exit(1)
